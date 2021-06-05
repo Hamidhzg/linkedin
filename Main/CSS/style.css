@@ -1,0 +1,72 @@
+/* Add a black background color to the top navigation */
+
+.topnav {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  margin-left: 6rem;
+  
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+  float: left;
+  display: flex;
+  color: #666666;
+  padding-top: 5px;
+  padding-left: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.fas {
+  float: right;
+
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+  color: rgb(8, 8, 8);
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  float: none;
+
+}
+
+.fab {
+  float: left;
+  color: #0e76a8;
+  size: 3rem;
+  margin-right: 1.5rem;
+}
+
+/* Style the search field */
+
+form.search input[type="text"] {
+  padding: 5px;
+  font-size: 19px;
+  border: none;
+  float: left;
+  width: 15%;
+  background: #f1f1f1;
+  margin-right: 100px;
+}
+
+/* Style the submit button */
+
+form.search button {
+  float: left;
+  width: 5%;
+  padding: 5px;
+  background: #f1f1f1;
+  color: #666666;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+}
+
+form.search button:hover {
+  background: #6666666e;
+}

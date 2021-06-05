@@ -5,22 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/2783ad7301.js" crossorigin="anonymous"></script>
-    <title>Linkdein Sample</title>
 </head>
 
 <body>
-    <i class="fab fa-linkedin-in fa-5x"style="color:#2867B2" ></i>
-    <nav>
-        <ul>
-            <a href="">My Profile</a>
-            <a href="">Notification</a>
-            <a href="">Messages</a>
-            <a href="">Connections</a>
-        </ul>
-    </nav>
-    
-    <h2>HI</h2>
+
+
+    <!-- Topnave  -->
+    <div class="topnav" id="myTopnav">
+        <i class="fab fa-linkedin fa-2x"></i>
+        <form class="search" action="action_page.php">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            <input type="text" placeholder="Search" name="search">
+        </form>
+        <!-- <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a> -->
+
+        <a href="#home"><i class="fas fa-fw fa-home"></i>
+            <br> Home
+        </a>
+
+        <a href="#Network"><i class="fas fa-fw fa-user-friends"></i>
+            <br> Network
+        </a>
+        <a href="#Job"><i class="fas fa-briefcase"></i>
+            <br> Job
+        </a>
+        <a href="#Mesegaging"><i class="fas fa-fw fa-comment-dots"></i>
+            <br> Mesegaging
+        </a>
+        <a href="#Notifications"><i class="fas fa-fw fa-bell"></i> <br>
+            Notifications
+        </a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
 </body>
 
