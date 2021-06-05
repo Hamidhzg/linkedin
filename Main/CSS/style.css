@@ -4,7 +4,6 @@
   background-color: rgb(255, 255, 255);
   overflow: hidden;
   margin-left: 6rem;
-  
 }
 
 /* Style the links inside the navigation bar */
@@ -13,14 +12,13 @@
   float: left;
   display: flex;
   color: #666666;
-  padding-top: 5px;
-  padding-left: 15px;
+  padding-left: 2rem;
   text-decoration: none;
-  font-size: 17px;
+  font-size: small;
 }
 .fas {
   float: right;
-
+  border-color: black;
 }
 
 /* Change the color of links on hover */
@@ -32,7 +30,6 @@
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   float: none;
-
 }
 
 .fab {
@@ -45,8 +42,8 @@
 /* Style the search field */
 
 form.search input[type="text"] {
-  padding: 5px;
-  font-size: 19px;
+  padding: 0.5rem;
+  font-size: small;
   border: none;
   float: left;
   width: 15%;
@@ -59,13 +56,20 @@ form.search input[type="text"] {
 form.search button {
   float: left;
   width: 5%;
-  padding: 5px;
+  padding: 0.5rem;
   background: #f1f1f1;
   color: #666666;
-  font-size: 19px;
+  font-size: small;
   border: none;
   cursor: pointer;
 }
+/* My pro  */
+.proImg {
+  border-radius: 0.5rem;
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+}
+/* search button */
 
 form.search button:hover {
   background: #6666666e;
